@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { a } from '~Config'
+</script>
 <template>
   <div>
-    <h1>fasdfsd</h1>
+    <h1>{{ a }}</h1>
   </div>
 </template>
 

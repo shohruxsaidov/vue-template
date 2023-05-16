@@ -15,7 +15,13 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/head": "^1.1.26",
+    "bulma": "^0.9.4",
+    "bulma-css-vars": "^0.8.0",
+    "notyf": "^3.10.0",
     "pinia": "^2.0.35",
+    "sass": "^1.62.1",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

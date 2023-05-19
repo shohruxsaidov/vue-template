@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import AnimatedLogo from '@/components/svg/AnimatedLogo.vue'
 
 export type SidebarTheme =
   | 'default'
@@ -16,7 +17,7 @@ const props = withDefaults(
     isOpen?: boolean
   }>(),
   {
-    theme: 'default',
+    theme: 'default'
   }
 )
 
@@ -43,7 +44,7 @@ const themeClasses = computed(() => {
 <template>
   <div class="main-sidebar" :class="[themeClasses]">
     <div class="sidebar-brand">
-      <RouterLink :to="{ name: 'index' }">
+      <RouterLink to="/">
         <AnimatedLogo width="36px" />
       </RouterLink>
     </div>

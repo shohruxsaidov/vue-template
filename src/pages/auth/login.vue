@@ -95,15 +95,6 @@ useHead({
                 <input type="text" name="email" class="input" placeholder="" autocomplete="email" />
                 <small class="error-text">This is a required field</small>
                 <div class="auth-label">Email Address</div>
-                <div class="autv-icon">
-                  <i aria-hidden="true" class="lnil lnil-envelope"></i>
-                </div>
-                <div class="validation-icon is-success">
-                  <VIconWrap icon="feather:check" />
-                </div>
-                <div class="validation-icon is-error">
-                  <VIconWrap icon="feather:x" />
-                </div>
               </div>
               <div class="control has-validation">
                 <input
@@ -326,7 +317,7 @@ useHead({
           padding-top: 14px;
           height: 60px;
           border-radius: 10px;
-          padding-left: 55px;
+          padding-left: 15px;
           transition: all 0.3s;
 
           &:focus {
@@ -350,7 +341,7 @@ useHead({
         .auth-label {
           position: absolute;
           top: 6px;
-          left: 55px;
+          left: 15px;
           font-size: 0.8rem;
           color: var(--dark-text);
           font-weight: 500;

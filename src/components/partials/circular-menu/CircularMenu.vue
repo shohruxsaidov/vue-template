@@ -59,7 +59,7 @@ const localFlagSrc = computed(() => {
       <a class="menu-item is-flex right-panel-trigger" @click="activePanel = 'languages'">
         <img :src="localFlagSrc" alt="" />
       </a>
-      <RouterLink :to="{ name: 'sidebar-layouts-profile-notifications' }" class="menu-item is-flex">
+      <RouterLink to="/" class="menu-item is-flex">
         <i aria-hidden="true" class="iconify" data-icon="feather:bell"></i>
       </RouterLink>
       <a class="menu-item is-flex" @click="activePanel = 'activity'">

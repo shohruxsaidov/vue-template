@@ -27,70 +27,22 @@ const dropdown = useDropdown(dropdownElement)
       </div>
       <div class="inner has-slimscroll">
         <ul class="notification-list">
-          <li>
-            <a class="notification-item">
-              <div class="img-left">
-                <img
-                  class="user-photo"
-                  alt=""
-                  src="/images/avatars/svg/vuero-4.svg"
-                  @error.once="(event) => useViaPlaceholderError(event, '150x150')"
-                />
-              </div>
-              <div class="user-content">
-                <p class="user-info"><span class="name">Alice C.</span> left a comment.</p>
-                <p class="time">1 hour ago</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="notification-item">
-              <div class="img-left">
-                <img
-                  class="user-photo"
-                  alt=""
-                  src="/images/avatars/svg/vuero-2.svg"
-                  @error.once="(event) => useViaPlaceholderError(event, '150x150')"
-                />
-              </div>
-              <div class="user-content">
-                <p class="user-info"><span class="name">Joshua S.</span> uploaded a file.</p>
-                <p class="time">2 hours ago</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="notification-item">
-              <div class="img-left">
-                <img
-                  class="user-photo"
-                  alt=""
-                  src="/images/avatars/svg/vuero-5.svg"
-                  @error.once="(event) => useViaPlaceholderError(event, '150x150')"
-                />
-              </div>
-              <div class="user-content">
-                <p class="user-info"><span class="name">Tara S.</span> sent you a message.</p>
-                <p class="time">2 hours ago</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="notification-item">
-              <div class="img-left">
-                <img
-                  class="user-photo"
-                  alt=""
-                  src="/images/avatars/svg/vuero-9.svg"
-                  @error.once="(event) => useViaPlaceholderError(event, '150x150')"
-                />
-              </div>
-              <div class="user-content">
-                <p class="user-info"><span class="name">Melany W.</span> left a comment.</p>
-                <p class="time">3 hours ago</p>
-              </div>
-            </a>
-          </li>
+          <!--          <li>-->
+          <!--            <a class="notification-item">-->
+          <!--              <div class="img-left">-->
+          <!--                <img-->
+          <!--                  class="user-photo"-->
+          <!--                  alt=""-->
+          <!--                  src="/images/avatars/svg/vuero-4.svg"-->
+          <!--                  @error.once="(event) => useViaPlaceholderError(event, '150x150')"-->
+          <!--                />-->
+          <!--              </div>-->
+          <!--              <div class="user-content">-->
+          <!--                <p class="user-info"><span class="name">Alice C.</span> left a comment.</p>-->
+          <!--                <p class="time">1 hour ago</p>-->
+          <!--              </div>-->
+          <!--            </a>-->
+          <!--          </li>-->
         </ul>
       </div>
     </div>

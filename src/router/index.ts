@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import type { NavigationGuardNext, RouteLocationNormalized } from 'vue-router'
 
 // @ts-ignore
 import { setupLayouts } from 'virtual:generated-layouts'

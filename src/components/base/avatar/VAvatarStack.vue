@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { VAvatarProps } from './VAvatar.vue'
+import type { VAvatarProps } from './VAvatar.vue'
 
 export type VAvatarStackSize = 'small' | 'medium' | 'large' | 'big' | 'xl'
 
@@ -12,7 +12,7 @@ export interface VAvatarStackProps {
 const props = withDefaults(defineProps<VAvatarStackProps>(), {
   limit: 5,
   size: undefined,
-  avatars: () => [],
+  avatars: () => []
 })
 </script>
 

@@ -297,7 +297,7 @@ watch(
             </Toolbar>
           </div>
 
-          <slot></slot>
+          <RouterView />
         </div>
       </div>
     </div>

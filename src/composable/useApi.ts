@@ -1,5 +1,7 @@
-import { InjectionKey, inject, provide } from 'vue'
-import axios, { AxiosInstance } from 'axios'
+import { inject, provide } from 'vue'
+import axios from 'axios'
+import type { AxiosInstance } from 'axios'
+import type { InjectionKey } from 'vue'
 
 import { useUserSession } from '@/stores/userSession'
 
